@@ -10,7 +10,6 @@ if ($file) {
 flock($file, LOCK_UN);
 fclose($file);
 
-
 ?>
 
 <!DOCTYPE html>
@@ -19,17 +18,17 @@ fclose($file);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>textファイル書き込み型todoリスト（一覧画面）</title>
+    <title>Amazon account list</title>
 </head>
 
 <body>
     <fieldset>
-        <legend>textファイル書き込み型todoリスト（一覧画面）</legend>
-        <a href="todo_txt_input2.php">入力画面</a>
+        <legend>Amazon account list</legend>
+        <a href="input2.php">入力画面</a>
         <table>
             <thead>
                 <tr>
-                    <th>todo</th>
+                    <th>リスト</th>
                 </tr>
             </thead>
             <tbody>

