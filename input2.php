@@ -22,10 +22,10 @@
                 <h1 class="h3 mb-3 font-weight-normal">サインイン</h1>
                 <div>
                     <label for="inputEmail" class="sr-only">Eメールアドレス</label>
-                    <input type="email" name="todo" id="inputEmail" placeholder="Eメールアドレス" required autofocus>
+                    <input type="email" name="getemail" id="inputEmail" placeholder="Eメールアドレス" required autofocus>
                 </div>
                 <div>
-                    <input type="password" name="deadline" id="inputPassword" placeholder="パスワード" required name="deadline">
+                    <input type="password" name="getpass" id="inputPassword" placeholder="パスワード" required>
                 </div>
                 <div class="checkbox mt-3 mb-3">
                     <label>

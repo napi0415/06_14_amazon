@@ -1,10 +1,10 @@
 <?php
 // var_dump($_POST);
 // exit();
-$todo = $_POST['todo'];
-$deadline = $_POST['deadline'];
+$getemail = $_POST['getemail'];
+$getpass = $_POST['getpass'];
 
-$write_data = "{$todo} {$deadline}\n";
+$write_data = "{$getemail} {$getpass}\n";
 
 $file = fopen('data/todo.txt', 'a');
 flock($file, LOCK_EX);
