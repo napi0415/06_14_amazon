@@ -12,4 +12,4 @@ flock($file, LOCK_EX);
 fwrite($file, $write_data);
 flock($file, LOCK_UN);
 fclose($file);
-header('Location:todo_txt_input2.php');
+header('Location:todo_txt_input.php');

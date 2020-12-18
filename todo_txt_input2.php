@@ -1,49 +1,10 @@
-<!-- <!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>textファイル書き込み型todoリスト（入力画面）</title>
-</head>
-
-<body>
-    <form action="todo_txt_create.php" method="POST">
-        <fieldset>
-            <legend>textファイル書き込み型todoリスト（入力画面）</legend>
-            <a href="todo_txt_read.php">一覧画面</a>
-            <div>
-                todo: <input type="text" name="todo">
-            </div>
-            <div>
-                deadline: <input type="date" name="deadline">
-            </div>
-            <div>
-                <button>submit</button>
-            </div>
-        </fieldset>
-    </form>
-
-</body>
-
-</html> -->
-
-
 <!doctype html>
 <html lang="ja">
 
 <head>
     <title>Amazonpay</title>
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link href="" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 </head>
-
-
-
-
-
 
 <div class="text-center">
     <a id="skippy" class="sr-only sr-only-focusable" href="#content">
